@@ -47,5 +47,7 @@ group :test do
   gem 'database_cleaner'
   gem 'bcrypt'
   gem 'jwt'
+  gem 'active_model_serializers'
+  gem 'will_paginate'
 end
 
