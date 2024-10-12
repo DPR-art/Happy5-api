@@ -45,5 +45,7 @@ group :test do
   gem 'shoulda-matchers', '~> 6.0'
   gem 'faker'
   gem 'database_cleaner'
+  gem 'bcrypt'
+  gem 'jwt'
 end
 
