@@ -5,7 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.3.5
+* Rails version 7.2.1
+* Database version Sqlite3 1.4
 
 * System dependencies
 
