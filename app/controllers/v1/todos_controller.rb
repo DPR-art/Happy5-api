@@ -20,6 +20,27 @@ module V1
       @todo = current_user.todos.create!(todo_params)
       json_response(@todo, :created)
     end
+    
+    # GET /todos/:id
+    def show
+      @todo = current_user.todos.create!(todo_params)
+      json_response(@todo)
+    end
+
+    # PUT /todos/:id
+    def update
+      @todo = current_user.todos.create!(todo_params)
+      @todo.update(todo_params)
+      head :no_content
+    end
+
+    # DELETE /todos/:id
+    def destroy
+      @todo = current_user.todos.create!(todo_params)
+      @todo.destroy
+      head :no_content
+    end
+
     # [...]
     private
 
