@@ -14,7 +14,10 @@ Things you may want to cover:
 * Database creation
 * rails db:migrate
 
-* Database initialization
-* bundle install
+* Application initialization
+* Crud
+* Authentication
+* Versioning
+* Serializers
 
 
